@@ -41,7 +41,7 @@ app.use(require('webpack-hot-middleware')(compiler))
 
 app.use(express.static(path.join(__dirname, '/dist')))
 
-app.listen(config._hotPort, 'localhost', function (err) {
+app.listen(config._hotPort, '0.0.0.0', function (err) {
   if (err) {
     console.log(err)
   }

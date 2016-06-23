@@ -38,7 +38,7 @@ module.exports = {
       loader: 'style!css?modules&&importLoaders=1&localIdentName=[name]---[local]---[hash:base64:5]!postcss'
     }]
   },
-  _hotPort: 8000,
+  _hotPort: 9000,
   postcss: [
     require('postcss-modules-values')
   ]
